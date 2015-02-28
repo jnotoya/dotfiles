@@ -1,0 +1,20 @@
+defutf8 on
+defencoding utf8
+encoding utf-8 utf-8
+cjkwidth on
+
+# カラースキーマを設定している場合、screen後のvimで文字部分の
+# 背景色だけおかしくなることがあるので設定
+#attrcolor b ".I"
+defbce on
+term screen-256color
+termcapinfo xterm* 'Co#256:pa#32767:AB=\E[48;5;%dm:AF=\E[38;5;%dm:'
+termcapinfo kterm* 'Co#256:pa#32767:AB=\E[48;5;%dm:AF=\E[38;5;%dm:'
+
+escape ^z^z
+
+vbell on
+
+caption always "%-w%10L>%{=b bw}%n %t%{-}%+w%-0="
+hardstatus alwayslastline "%H%=%Y/%m/%d %02c"
+

@@ -1,0 +1,10 @@
+
+# direnv でカレントディレクトリの .vimrc を読み込み
+# 対象ディレクトリの .envrc に 'add_extra_vimrc' を追加で動作
+add_extra_vimrc() {
+  local extravim="$(find_up .extra_vimrc)"
+  if [ -n "$extravim" ]; then
+    echo "Adding extra .vimrc: ${extravim}"
+    path_add EXTRA_VIM $extravim
+  fi
+}
