@@ -4,8 +4,11 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'tpope/vim-endwise'
 
+# [[plugins]]
+# repo = 'Townk/vim-autoclose'
+
 [[plugins]]
-repo = 'Townk/vim-autoclose'
+repo = 'cohama/lexima.vim'
 
 [[plugins]]
 repo = 'w0rp/ale'
