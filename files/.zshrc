@@ -15,3 +15,5 @@ fi
 if [ "$(uname)" = "Darwin" ]; then
 	alias ls="ls -GF"
 fi
+
+eval $(dircolors ~/.dircolors-solarized/dircolors.ansi-light)

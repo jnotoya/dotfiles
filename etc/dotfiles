@@ -3,6 +3,7 @@
 .config
 .ctags
 .direnvrc
+.dircolors-solarized
 .inputrc
 .profile
 .screenrc

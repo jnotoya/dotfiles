@@ -1,3 +1,6 @@
 [submodule "files/.zprezto"]
 	path = files/.zprezto
 	url = https://github.com/sorin-ionescu/prezto.git
+[submodule "files/.dircolors-solarized"]
+	path = files/.dircolors-solarized
+	url = https://github.com/seebi/dircolors-solarized.git
