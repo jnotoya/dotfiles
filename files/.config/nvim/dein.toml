@@ -17,8 +17,8 @@ repo = 'w0rp/ale'
 repo = 'altercation/vim-colors-solarized'
 hook_add = '''
   let g:solarized_termcolors=256
-  syntax enable
   colorscheme solarized
+  syntax enable
 '''
 
 [[plugins]]

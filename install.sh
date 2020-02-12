@@ -10,5 +10,6 @@ fi
 cd "$DOTDIR"
 sh bin/backup_dotfiles.sh
 sh bin/link_dotfiles.sh
+sh bin/setup_vim.sh
 echo "done."
 
