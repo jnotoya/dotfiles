@@ -1,5 +1,7 @@
 .bash_logout
 .bashrc
+.cache
+.config
 .ctags
 .direnvrc
 .inputrc
@@ -7,6 +9,10 @@
 .screenrc
 .vimrc
 .vim-settings.d
-.zshrc
-.zprofile
+.zlogin
+.zlogout
+.zprezto
 .zpreztorc
+.zprofile
+.zshenv
+.zshrc

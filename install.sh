@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOTDIR="$HOME/.dotfiles"
+DOTDIR="$HOME/dotfiles"
 
 if [ ! -d "$DOTDIR" ]; then
   echo "Installing dotfiles."
@@ -8,8 +8,7 @@ if [ ! -d "$DOTDIR" ]; then
 fi
 
 cd "$DOTDIR"
-# sh bin/backup_dotfiles.sh
-# sh bin/link_dotfiles.sh
-sh bin/setup_vim.sh
+sh bin/backup_dotfiles.sh
+sh bin/link_dotfiles.sh
 echo "done."
 

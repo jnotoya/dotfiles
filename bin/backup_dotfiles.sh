@@ -1,8 +1,8 @@
 #!/bin/sh
 
-DOTDIR="$HOME/.dotfiles"
+DOTDIR="$HOME/dotfiles"
 ETCDIR="$DOTDIR/etc"
-BACKUPDIR="$HOME/.dotfiles_backup"
+BACKUPDIR="$DOTDIR/backup"
 
 [ -d "$BACKUPDIR" ] || mkdir "$BACKUPDIR"
 

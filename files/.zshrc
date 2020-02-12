@@ -12,5 +12,6 @@ fi
 
 # Customize to your needs...
 
-type direnv >/dev/null 2>&1 && eval "$(direnv hook zsh)"
-[[ -s $HOME/.pythonz/etc/bashrc ]] && source $HOME/.pythonz/etc/bashrc
+if [ "$(uname)" = "Darwin" ]; then
+	alias ls="ls -GF"
+fi
