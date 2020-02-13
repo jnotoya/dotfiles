@@ -11,5 +11,6 @@ cd "$DOTDIR"
 sh bin/backup_dotfiles.sh
 sh bin/link_dotfiles.sh
 sh bin/setup_vim.sh
+sh bin/update_submodules.sh
 echo "done."
 
