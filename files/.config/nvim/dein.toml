@@ -42,3 +42,5 @@ hook_add = '''
   let g:tcomment_types['toml'] = '# %s'
 '''
 
+[[plugins]]
+repo = 'Yggdroot/indentLine'
