@@ -18,4 +18,8 @@ fi
 
 alias rm="nocorrect rm"
 
+if builtin command -v nvim > /dev/null; then
+  alias vi="nvim"
+fi
+
 eval $(dircolors ~/.dircolors-solarized/dircolors.ansi-light)
